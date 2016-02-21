@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link href="/css/common.css" rel="stylesheet">
+  </head>
+  <body><%= content %></body>
+</html>

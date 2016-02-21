@@ -1,0 +1,13 @@
+html,body{
+  height:100%;
+}
+
+.form > div {
+  display: inline-block;
+}
+.form-title {
+  width: 60px;
+}
+.form-input {
+  
+}

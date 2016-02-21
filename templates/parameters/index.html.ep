@@ -1,0 +1,23 @@
+% layout 'default';
+% title 'Welcome';
+<h2><%= $msg %></h2>
+
+<div class="container">
+  <form method="POST" action="/parameters/sample">
+    <div class="form">
+      <div class="form-title">name</div>
+      <div class="form-input"><input type="text" name="name" value="" placeholder="名前を入力"></div>
+    </div>
+    <div class="form">
+      <div class="form-title">age</div>
+      <div class="form-input"><input type="text" name="age" value="" placeholder="年齢を入力"></div>
+    </div>
+    <div class="form">
+      <div class="form-title">tel</div>
+      <div class="form-input"><input type="text" name="tel" value="" placeholder="電話番号を入力"></div>
+    </div>
+    <div class="form">
+      <input type="submit" value="ok">
+    </div>
+  </form>
+</div>
